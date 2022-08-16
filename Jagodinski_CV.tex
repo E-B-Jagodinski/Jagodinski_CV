@@ -1,0 +1,127 @@
+%% The MIT License (MIT)
+%%
+%% Copyright (c) 2015 Daniil Belyakov
+%%
+%% Permission is hereby granted, free of charge, to any person obtaining a copy
+%% of this software and associated documentation files (the "Software"), to deal
+%% in the Software without restriction, including without limitation the rights
+%% to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+%% copies of the Software, and to permit persons to whom the Software is
+%% furnished to do so, subject to the following conditions:
+%%
+%% The above copyright notice and this permission notice shall be included in all
+%% copies or substantial portions of the Software.
+%%
+%% THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+%% IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+%% FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+%% AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+%% LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+%% OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+%% SOFTWARE.
+
+% The font could be set to Windows-specific Calibri by using the 'calibri' option
+\documentclass[]{mcdowellcv}
+
+% For mathematical symbols
+\usepackage{amsmath}
+
+
+% Set applicant's personal data for header
+\name{Eric Jagodinski}
+\address{101 N. Beach Rd \linebreak Dania Beach, Florida 33004}
+\webpage{www.jagodinski.com}
+\contacts{(704) 608-2871 \linebreak ejagodin@fau.edu}
+\github{}
+
+\begin{document}
+
+	% Print the header
+	\makeheader
+	
+	% Print the content
+
+\begin{cvsection}{Education}
+		\begin{cvsubsection}{Florida Atlantic University}{}{2017 -- Dec 2022*}{SeaTech Research Center, Dania Beach, FL}
+			\begin{itemize}
+				\item \textbf{Candidate for PhD in Ocean Engineering}
+				\item \textbf{Dissertation:} ``Multi-Agent Reinforcement Learning Turbulent Flow Control'' - Autonomous Multi-Agent Control with Reinforcement Learning in turbulent fluids simulations using Convolutional Neural Networks and Long Short-Term Memory for drag reduction.
+			\end{itemize}
+		\end{cvsubsection}
+		\begin{cvsubsection}{Florida Atlantic University}{}{2018}{SeaTech Research Center, Dania Beach, FL}
+			\begin{itemize}
+				\item \textbf{M.S. in Ocean Engineering} Earned En Passant while completing courses for my PhD
+			\end{itemize}
+		\end{cvsubsection}				
+		\begin{cvsubsection}{Florida Atlantic University}{}{2010 -- 2016}{Boca Raton, FL}
+			\begin{itemize}
+				\item \textbf{Bachelor of Science in Ocean Engineering}
+				\item \textbf{Capstone Project:} Full system designed and built prototype of an autonomous surface vehicle capable of GPS navigation and station keeping in dynamic conditions (Electrical Team Lead).
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+
+	\begin{cvsection}{Professional Experience}
+		\begin{cvsubsection}{Course Instructor}{}{2021}{Florida Atlantic University, Boca Raton, FL}
+			%iChat AV			
+			\begin{itemize} 
+			\item Taught an undergraduate Fluid Mechanics course to a class of 30 students (in-person and remote).
+			\end{itemize}
+		\end{cvsubsection}
+		
+		\begin{cvsubsection}{Graduate Intern}{}{2018}{Naval Research Laboratory, Stennis Space Center, MS}
+			\begin{itemize}
+            	\item Developed simulations using OpenFOAM CFD software for rogue wave and wind interaction using High-Performance Computing.
+			\end{itemize}
+		\end{cvsubsection}
+		
+			\begin{cvsubsection}{Engineering Technician}{}{2014-2015}{Agilis Engineering, Palm Beach Gardens, FL}
+			\begin{itemize}
+            	\item Assembled computer monitoring and signal conditioning systems used on GE turbines for NextEra and analyzed real-time turbine data for monthly reports for Florida Power and Light.
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+		\begin{cvsection}{Research}
+		\begin{cvsubsection}{Publications}{}{}
+			\begin{itemize}
+				\item Jagodinski, E., Zhu, X., Verma, S., \textbf{Data-driven identification of dynamically important regions in turbulent flows using 3D Convolutional Neural Networks} (\textit{submitted})  Autonomously identified critical regions in turbulent flow using 3D convolutional neural networks and a custom modified interpretation technique. Applied advanced data science methods to analyze efficacy of the technique.
+			\end{itemize}
+		\end{cvsubsection}
+		
+		\begin{cvsubsection}{Conference Presentations}{}{}
+			\begin{itemize}
+				\item  \textbf{Data-Driven blowing-suction control in a turbulent channel flow.}  APS Division of Fluid Dynamics (2021)
+				\item \textbf{Convolutional neural networks for identifying coherent turbulent structures.} APS Division of Fluid Dynamics (2019)
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+		\begin{cvsubsection}{Conference Posters}{}{}
+			\begin{itemize}
+				\item  \textbf{Turbulent flow identification using 3D convolutional neural networks} FAU Data-Driven Science and AI Conference (2021)
+			\end{itemize}
+		\end{cvsubsection}
+	
+	\begin{cvsection}{Certifications}
+		\begin{cvsubsection}{}{}{}	
+			\begin{itemize}
+				\item \textbf{Google Data Analytics Specialization} (2022) A professional certificate through Coursera on preparing, processing, analyzing and presenting data. (SQL, Tableau, R)
+				\item \textbf{Offshore Engineering Graduate Certificate} (2018) A graduate level specialization. Courses: Advanced Hydrodynamics, Offshore Structures, Hydrodynamics of Ship Design.
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+		\begin{cvsection}{Skills}
+		\begin{cvsubsection}{}{}{}	
+			\begin{itemize}
+				\item Python, Fortran, MATLAB, C++, Bash, R, SQL
+				\item TensorFlow, Keras, CNN, LSTM, Deep RL, PCA, Data Science
+				\item Git, Linux, HPC, DDT, Slurm, Tableau
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+	
+\end{document}
