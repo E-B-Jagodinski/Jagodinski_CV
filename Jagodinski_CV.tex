@@ -25,13 +25,14 @@
 
 % For mathematical symbols
 \usepackage{amsmath}
+\usepackage{hyperref}
 
 
 % Set applicant's personal data for header
 \name{Eric Jagodinski}
 \address{101 N. Beach Rd \linebreak Dania Beach, Florida 33004}
-\webpage{www.jagodinski.com}
-\contacts{(704) 608-2871 \linebreak ejagodin@fau.edu}
+\webpage{\href{www.jagodinski.com}{www.jagodinski.com}}
+\contacts{(704) 608-2871 \linebreak \href{ejagodin@fau.edu}{ejagodin@fau.edu}}
 \github{}
 
 \begin{document}
@@ -61,18 +62,28 @@
 		\end{cvsubsection}
 	\end{cvsection}
 	
+			\begin{cvsection}{Skills}
+		\begin{cvsubsection}{}{}{}	
+			\begin{itemize}
+				\item Fortran, Python, C++, MATLAB, R, SQL
+				\item TensorFlow, Keras, Artificial Neural Networks (CNN, LSTM), Deep Reinforcement Learning, Principal Component Analysis
+				\item Git, Linux, Bash, HPC, MPI, ARM DDT (parallel MPI debugger), Slurm, Tableau
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
 
 	\begin{cvsection}{Professional Experience}
 		\begin{cvsubsection}{Course Instructor}{}{2021}{Florida Atlantic University, Boca Raton, FL}
 			%iChat AV			
 			\begin{itemize} 
-			\item Taught an undergraduate Fluid Mechanics course to a class of 30 students (in-person and remote).
+			\item Taught an undergraduate Fluid Mechanics course (EML3701) to a class of 30 students (in-person and remote).
 			\end{itemize}
 		\end{cvsubsection}
 		
 		\begin{cvsubsection}{Graduate Intern}{}{2018}{Naval Research Laboratory, Stennis Space Center, MS}
 			\begin{itemize}
-            	\item Developed simulations using OpenFOAM CFD software for rogue wave and wind interaction using High-Performance Computing.
+            	\item Developed simulations using an open source CFD software for rogue wave and wind interaction using High-Performance Computing.
 			\end{itemize}
 		\end{cvsubsection}
 		
@@ -100,7 +111,7 @@
 	
 		\begin{cvsubsection}{Conference Posters}{}{}
 			\begin{itemize}
-				\item  \textbf{Turbulent flow identification using 3D convolutional neural networks} FAU Data-Driven Science and AI Conference (2021)
+				\item  \textbf{Turbulent flow identification using 3D convolutional neural networks} FAU Data-Driven Science and AI Conference (2022)
 			\end{itemize}
 		\end{cvsubsection}
 	
@@ -109,16 +120,6 @@
 			\begin{itemize}
 				\item \textbf{Google Data Analytics Specialization} (2022) A professional certificate through Coursera on preparing, processing, analyzing and presenting data. (SQL, Tableau, R)
 				\item \textbf{Offshore Engineering Graduate Certificate} (2018) A graduate level specialization. Courses: Advanced Hydrodynamics, Offshore Structures, Hydrodynamics of Ship Design.
-			\end{itemize}
-		\end{cvsubsection}
-	\end{cvsection}
-	
-		\begin{cvsection}{Skills}
-		\begin{cvsubsection}{}{}{}	
-			\begin{itemize}
-				\item Python, Fortran, MATLAB, C++, Bash, R, SQL
-				\item TensorFlow, Keras, CNN, LSTM, Deep RL, PCA, Data Science
-				\item Git, Linux, HPC, DDT, Slurm, Tableau
 			\end{itemize}
 		\end{cvsubsection}
 	\end{cvsection}
